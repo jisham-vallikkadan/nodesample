@@ -7,7 +7,7 @@ const Productdata= new Schema({
     Productname:{type:String,required:true},
     Productdiscription:{type:String},
     ProductPrice:{type:Number,required:true},
-    Productimage:{type:String,required:true},
+    Productimage:{type:String,},
    
     
 
